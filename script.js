@@ -135,20 +135,3 @@ style.textContent = `
     @keyframes fadeIn { from { opacity: 0; } to { opacity: 1; } }
 `;
 document.head.appendChild(style);
-
-// ===== BLOKADA DEVTOOLS =====
-document.addEventListener('keydown', (e) => {
-    if (e.key === 'F12') {
-        e.preventDefault();
-        window.location.href = 'https://jakubbujakiewicz.pl';
-    }
-    if ((e.ctrlKey || e.metaKey) && e.shiftKey && (e.key === 'I' || e.key === 'J' || e.key === 'C')) {
-        e.preventDefault();
-        window.location.href = 'https://jakubbujakiewicz.pl';
-    }
-    if ((e.ctrlKey || e.metaKey) && e.key === 'U') {
-        e.preventDefault();
-        window.location.href = 'https://jakubbujakiewicz.pl';
-    }
-});
-document.addEventListener('contextmenu', (e) => e.preventDefault());
