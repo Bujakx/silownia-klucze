@@ -860,15 +860,27 @@ a {
     display: flex;
     flex-direction: column;
     align-items: flex-end;
-    gap: 4px;
+    gap: 8px;
 }
 .tp-socials a {
-    font-size: 0.8rem;
-    color: rgba(255,255,255,0.4);
-    transition: color 0.2s;
-    letter-spacing: 0.3px;
+    display: inline-flex;
+    align-items: center;
+    gap: 7px;
+    font-size: 0.78rem;
+    color: rgba(255,255,255,0.55);
+    background: rgba(255,255,255,0.05);
+    border: 1px solid rgba(255,255,255,0.08);
+    border-radius: 3px;
+    padding: 5px 12px;
+    letter-spacing: 0.5px;
+    transition: color 0.2s, border-color 0.2s, background 0.2s;
+    white-space: nowrap;
 }
-.tp-socials a:hover { color: var(--gold); }
+.tp-socials a:hover {
+    color: var(--gold);
+    border-color: rgba(212,175,55,0.35);
+    background: rgba(212,175,55,0.06);
+}
 .tp-bio {
     color: rgba(255,255,255,0.58);
     font-size: 0.93rem;
