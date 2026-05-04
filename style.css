@@ -108,13 +108,13 @@ a {
 .nav-links {
     display: flex;
     list-style: none;
-    gap: 28px;
+    gap: 20px;
     align-items: center;
 }
 .nav-links a {
     font-family: 'Oswald', sans-serif;
-    font-size: 0.82rem;
-    letter-spacing: 2px;
+    font-size: 0.78rem;
+    letter-spacing: 1.5px;
     color: rgba(255,255,255,0.85);
     position: relative;
     padding-bottom: 4px;
@@ -361,12 +361,13 @@ a {
     aspect-ratio: 3/4;
     overflow: hidden;
     border-radius: 12px;
+    min-height: 480px;
 }
 .about-visual img {
     width: 100%;
     height: 100%;
     object-fit: cover;
-    object-position: center top;
+    object-position: center center;
     display: block;
 }
 .about-text p {
