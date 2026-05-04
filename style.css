@@ -98,10 +98,9 @@ a {
 }
 .nav-logo {
     font-family: 'Oswald', sans-serif;
-    font-size: 0.88rem;
+    font-size: 1.05rem;
     font-weight: 700;
     letter-spacing: 2px;
-    line-height: 1.2;
     white-space: nowrap;
 }
 .logo-gold  { color: var(--gold); }
